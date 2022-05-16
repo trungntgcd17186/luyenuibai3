@@ -135,7 +135,7 @@
 .sign-up-banner-image {
   width: 100%;
   height: 100%;
-  object-fit: none;
+  object-fit: cover;
 }
 
 .sign-up-content-container {
@@ -144,17 +144,175 @@
   align-items: center;
 }
 
-.App {
+.header-container {
   position: relative;
-  height: 100vh;
+  padding-bottom: 100px;
 }
 
 .footer-image {
-  width: 100%;
-  height: 100%;
   position: absolute;
   bottom: 0;
-  z-index: 999;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.reasons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 100px 112px;
+}
+
+.reasons-heading,
+.features-heading {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  color: #0a215f;
+  text-align: center;
+}
+
+.reasons-description,
+.features-description {
+  margin-top: 20px;
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0a215f;
+  text-align: center;
+  letter-spacing: 0.005em;
+}
+
+.reasons-items-container {
+  margin-top: 115px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reasons-item {
+  width: 25%;
+  height: 344px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reasons-item-title {
+  margin-top: 30px;
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #0a215f;
+}
+
+.reasons-item-description {
+  width: 80%;
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  letter-spacing: 0.005em;
+  color: #0a215f;
+}
+
+.steps-container {
+  padding: 100px 108px;
+}
+
+.steps-heading {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: 0.0025em;
+
+  color: #0a215f;
+}
+
+.steps-description {
+  margin-top: 20px;
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #0a215f;
+}
+
+.steps-content {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.steps-content-title {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  color: #0a215f;
+}
+
+.steps-content-description {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+}
+
+.features-description {
+  width: 35%;
+}
+
+.features-content {
+  height: 216px;
+  background-color: #fafcfd;
+  border-radius: 16px;
+}
+
+.features-content-title {
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  color: #0a215f;
+}
+
+.features-content-description {
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #0a215f;
+
+  margin-top: 24px;
+  width: 90%;
 }
 
 @media screen and (min-width: 1600px) {

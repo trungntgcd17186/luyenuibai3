@@ -12,6 +12,14 @@
   display: flex;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
+.z-index-999 {
+  z-index: 999;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -149,12 +157,13 @@
   padding-bottom: 100px;
 }
 
-.footer-image {
+.header-background {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .reasons-container {
@@ -195,6 +204,14 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+
+.reasons-background {
+  position: absolute;
+  right: 12%;
+  top: 5%;
+  z-index: -1;
 }
 
 .reasons-item {
@@ -284,7 +301,7 @@
 }
 
 .features-description {
-  width: 35%;
+  width: 40%;
 }
 
 .features-content {
@@ -315,6 +332,260 @@
   width: 90%;
 }
 
+.download-heading {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  color: #0a215f;
+}
+
+.download-description {
+  margin-top: 12px;
+  margin-bottom: 0;
+
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #0a215f;
+}
+
+.apple-store-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 8px;
+
+  width: 183px;
+  height: 56px;
+  background: #ffffff;
+  border-radius: 8px;
+
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.0015em;
+
+  color: #2a84c6;
+}
+
+.google-play-btn {
+  margin-left: 16px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 8px;
+
+  width: 185px;
+  height: 56px;
+  background: linear-gradient(
+      0deg,
+      rgba(13, 50, 145, 0.2) 0%,
+      rgba(16, 54, 151, 0) 100%
+    ),
+    #1443bd;
+  border-radius: 8px;
+
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  color: #ffffff;
+}
+
+.support-heading {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  color: #0a215f;
+}
+
+.support-title {
+  margin-top: 16px;
+
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #0a215f;
+}
+
+.support-description {
+  margin-top: 4px;
+  margin-bottom: 0;
+
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.0025em;
+  color: #0a215f;
+}
+
+.support-btn {
+  margin-top: 36px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 10px;
+
+  width: 132px;
+  height: 36px;
+  background: linear-gradient(
+      0deg,
+      rgba(13, 50, 145, 0.2) 0%,
+      rgba(16, 54, 151, 0) 100%
+    ),
+    #1443bd;
+  border-radius: 4px;
+
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.0125em;
+  color: #ffffff;
+}
+
+.partners-content-container {
+  width: 35%;
+  border-bottom: 1px solid #cccccc;
+}
+
+.partners-heading {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  color: #0a215f;
+}
+
+.partners-title {
+  margin-top: 16px;
+
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #0a215f;
+}
+
+.partners-description {
+  margin-top: 4px;
+  margin-bottom: 0;
+  padding-bottom: 37px;
+
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.0025em;
+  color: #0a215f;
+}
+
+.footer-category-title {
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.0015em;
+  color: #ffffff;
+}
+
+.footer-category-item {
+  margin-top: 8px;
+
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.0125em;
+  color: #ffffff;
+}
+
+.footer-category-container .footer-category-item:first-child {
+  margin-top: 16px;
+}
+
+.footer-sign-up-btn {
+  margin-top: 36px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 10px;
+
+  width: 184px;
+  height: 36px;
+  background: #ffffff;
+  border-radius: 4px;
+
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.0125em;
+  color: #0a215f;
+}
+
+.footer-company-copyright {
+  width: 50%;
+
+  font-family: 'SVN-Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.004em;
+  color: #ffffff;
+}
+
+.footer-social-contact-container {
+  width: 70%;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-background {
+  position: absolute;
+  top: -30%;
+  left: 12%;
+}
 @media screen and (min-width: 1600px) {
   .sign-up-banner-image {
     margin-top: 30px;

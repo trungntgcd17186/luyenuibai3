@@ -1,109 +1,106 @@
+import { Button, Col, Row } from 'antd';
 import 'antd/dist/antd.css';
 import './App.css';
-import { Row, Col, Button } from 'antd';
-import Logo from './assets/images/Logo.svg';
-import DownIcon from './assets/images/DownIcon.svg';
-import Banner from './assets/images/Banner.svg';
-import Line from './assets/images/Line.svg';
-import PlayIcon from './assets/images/PlayIcon.svg';
+import AcbBank from './assets/images/AcbBank.png';
+import AppleStore from './assets/images/AppleStore.svg';
 import ArrowRightIcon from './assets/images/ArrowRightIcon.svg';
-import HeaderBackground from './assets/images/HeaderBackground.png';
-import ReasonsItem1 from './assets/images/ReasonsItem1.png';
-import ReasonsItem2 from './assets/images/ReasonsItem2.png';
-import ReasonsItem3 from './assets/images/ReasonsItem3.png';
-import ReasonsBackground from './assets/images/ReasonsBackground.png';
-import Image3Steps from './assets/images/Image3Steps.svg';
-import UserIcon from './assets/images/UserIcon.svg';
 import BankIcon from './assets/images/BankIcon.svg';
+import Banner from './assets/images/Banner.png';
 import CardBankIcon from './assets/images/CardBankIcon.svg';
+import DownIcon from './assets/images/DownIcon.svg';
+import FeaturesBackground from './assets/images/FeaturesBackground.png';
 import FeaturesContent1 from './assets/images/FeaturesContent1.png';
 import FeaturesContent2 from './assets/images/FeaturesContent2.png';
 import FeaturesContent3 from './assets/images/FeaturesContent3.png';
 import FeaturesContent4 from './assets/images/FeaturesContent4.png';
-import FeaturesBackground from './assets/images/FeaturesBackground.png';
-import Phone from './assets/images/Phone.png';
-import AppleStore from './assets/images/AppleStore.svg';
-import GooglePlay from './assets/images/GooglePlay.svg';
-import Support from './assets/images/Support.png';
-import SupportIconBackground from './assets/images/SupportIconBackground.png';
-import BrandPartners from './assets/images/BrandPartners.png';
-import LogoFooter from './assets/images/LogoFooter.svg';
 import FooterLine from './assets/images/FooterLine.svg';
+import GooglePlay from './assets/images/GooglePlay.svg';
+import Gucci from './assets/images/Gucci.png';
+import HeaderBackground from './assets/images/HeaderBackground.png';
+import Image3Steps from './assets/images/Image3Steps.svg';
+import Line from './assets/images/Line.svg';
+import Logo from './assets/images/Logo.svg';
+import LogoFooter from './assets/images/LogoFooter.svg';
 import LogoSocial1 from './assets/images/LogoSocial1.svg';
 import LogoSocial2 from './assets/images/LogoSocial2.svg';
 import LogoSocial3 from './assets/images/LogoSocial3.svg';
 import LogoSocial4 from './assets/images/LogoSocial4.svg';
 import LogoSocial5 from './assets/images/LogoSocial5.svg';
 import LogoSocial6 from './assets/images/LogoSocial6.svg';
+import Nike from './assets/images/Nike.png';
+import Phone from './assets/images/Phone.png';
+import PlayIcon from './assets/images/PlayIcon.svg';
+import Puma from './assets/images/Puma.png';
+import ReasonsItem1 from './assets/images/ReasonsItem1.png';
+import ReasonsItem2 from './assets/images/ReasonsItem2.png';
+import ReasonsItem3 from './assets/images/ReasonsItem3.png';
+import ShinhanBank from './assets/images/ShinhanBank.png';
+import Support from './assets/images/Support.png';
+import SupportIconBackground from './assets/images/SupportIconBackground.png';
+import TpBank from './assets/images/TpBank.png';
+import UserIcon from './assets/images/UserIcon.svg';
 
 function App() {
   return (
     <div className='App'>
       {/* Header Section */}
       <div className='header-container container'>
-        <Row className='flex'>
+        <Row>
           <Col xl={3}>
             <img src={Logo} alt='logo' />
           </Col>
           <Col xl={6} />
-          <Col className='nav-container' xl={9}>
-            <div className='nav-item cursor'>About</div>
-            <div className='nav-item cursor'>Features</div>
-            <div className='nav-item cursor'>Download</div>
-            <div className='nav-item cursor'>Support</div>
-            <div className='nav-item cursor'>
-              Partners
-              <img
-                style={{ marginLeft: '9px', marginTop: '3px' }}
-                src={DownIcon}
-                alt='icon'
-              />
+          <Col xl={9}>
+            <div className='nav-container'>
+              <div className='nav-item cursor'>About</div>
+              <div className='nav-item cursor'>Features</div>
+              <div className='nav-item cursor'>Download</div>
+              <div className='nav-item cursor'>Support</div>
+              <div className='nav-item cursor'>
+                Partners
+                <img className='arrow-down-icon' src={DownIcon} alt='icon' />
+              </div>
             </div>
           </Col>
 
-          <Col xl={3} offset={2} className='sign-in-sign-up-container'>
-            <div className='sign-in-btn cursor'>Sign In</div>
-            <Button className='sign-up-btn'>Sign Up</Button>
+          <Col xl={3} offset={2}>
+            <div className='sign-in-sign-up-container'>
+              <div className='sign-in-btn cursor'>Sign In</div>
+              <Button className='sign-up-btn'>Sign Up</Button>
+            </div>
           </Col>
         </Row>
 
-        <Row className='sign-up-content-container'>
-          <Col xl={10} style={{ paddingBottom: '50px' }}>
-            <div>
-              <div className='sign-up-heading'>
-                Monitor Balance Control Smart Life
+        <Row>
+          <Col xl={10}>
+            <div className='header-main-content-left'>
+              <div>
+                <div className='sign-up-heading'>
+                  Monitor Balance Control Smart Life
+                </div>
+                <p className='sign-up-description'>
+                  When the life too much things you need more than you have.
+                  Let’s Peyme help your life to easier with smart payment
+                </p>
               </div>
-              <p className='sign-up-description'>
-                When the life too much things you need more than you have. Let’s
-                Peyme help your life to easier with smart payment
-              </p>
-            </div>
-            <div
-              className='flex'
-              style={{ alignItems: 'center', marginTop: '56px' }}
-            >
-              <div
-                className='flex z-index-999'
-                style={{ alignItems: 'center' }}
-              >
-                <img className='cursor' src={PlayIcon} alt='icon' />
-                <div className='play-btn-title cursor'>Take a trip</div>
+              <div className='header-content-btn-container'>
+                <div className='header-content-take-a-trip-btn-container'>
+                  <img className='cursor' src={PlayIcon} alt='icon' />
+                  <div className='play-btn-title cursor'>Take a trip</div>
+                </div>
+                <img className='line-icon' src={Line} alt='icon' />
+                <Button className='get-started-btn z-index-999'>
+                  Get Started
+                  <img src={ArrowRightIcon} alt='icon' />
+                </Button>
               </div>
-              <img style={{ marginLeft: '24px' }} src={Line} alt='icon' />
-              <Button className='get-started-btn z-index-999'>
-                Get Started
-                <img src={ArrowRightIcon} alt='icon' />
-              </Button>
             </div>
           </Col>
 
-          <Col xl={10} offset={2}>
-            <img
-              style={{ marginLeft: '20px' }}
-              className='sign-up-banner-image'
-              src={Banner}
-              alt='banner'
-            />
+          <Col xl={10} offset={4}>
+            <div className='sign-up-banner-image-container'>
+              <img className='sign-up-banner-image' src={Banner} alt='banner' />
+            </div>
           </Col>
         </Row>
 
@@ -111,54 +108,44 @@ function App() {
       </div>
       {/* Reasons Section */}
       <div className='reasons-container container'>
-        <Row
-          style={{
-            width: '45%',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-            textAlign: 'center',
-          }}
-        >
-          <div className='reasons-heading'>Why you choose us?</div>
-          <p className='reasons-description'>
-            When the life too much things you need more than you have. Let Peyme
-            help your life to easier with smart payment system
-          </p>
+        <Row>
+          <div className='pey-me-heading-container'>
+            <div className='reasons-heading'>Why you choose us?</div>
+            <p className='reasons-description'>
+              When the life too much things you need more than you have. Let
+              Peyme help your life to easier with smart payment system
+            </p>
+          </div>
         </Row>
-        <Row className='reasons-items-container'>
-          <div className='background-container'></div>
-          <div className='reasons-item'>
-            <img src={ReasonsItem1} alt='icon' />
-            <div className='reasons-item-title'>Purchase One Touch</div>
-            <p className='reasons-item-description'>
-              Get a quick overview of all your transactions in our easy-to-use
-              <br />
-              Peyme in one touch
-            </p>
+        <Row>
+          <div className='reasons-items-container'>
+            <div className='background-container'></div>
+            <div className='reasons-item'>
+              <img src={ReasonsItem1} alt='icon' />
+              <div className='reasons-item-title'>Purchase One Touch</div>
+              <p className='reasons-item-description'>
+                Get a quick overview of all your transactions in our easy-to-use
+                <br />
+                Peyme in one touch
+              </p>
+            </div>
+            <div className='reasons-item'>
+              <img src={ReasonsItem2} alt='icon' />
+              <div className='reasons-item-title'>Free Transactions</div>
+              <p className='reasons-item-description'>
+                Every transactions in Peyme is free. <br /> You don’t worry
+                about fees. Our <br /> profits base your satisfied and ads
+              </p>
+            </div>
+            <div className='reasons-item'>
+              <img src={ReasonsItem3} alt='icon' />
+              <div className='reasons-item-title'>Private and secure </div>
+              <p className='reasons-item-description'>
+                None of your personcal data is ever collected or stored in our
+                Peyme. Your history transaction just you see
+              </p>
+            </div>
           </div>
-          <div className='reasons-item'>
-            <img src={ReasonsItem2} alt='icon' />
-            <div className='reasons-item-title'>Free Transactions</div>
-            <p className='reasons-item-description'>
-              Every transactions in Peyme is free. <br /> You don’t worry about
-              fees. Our <br /> profits base your satisfied and ads
-            </p>
-          </div>
-          <div className='reasons-item'>
-            <img src={ReasonsItem3} alt='icon' />
-            <div className='reasons-item-title'>Private and secure </div>
-            <p className='reasons-item-description'>
-              None of your personcal data is ever collected or stored in our
-              Peyme. Your history transaction just you see
-            </p>
-          </div>
-          {/* <img
-            className='reasons-background'
-            src={ReasonsBackground}
-            alt='background'
-          /> */}
         </Row>
       </div>
       <div className='container padding-top-bottom-100'>
@@ -174,10 +161,10 @@ function App() {
               accurate steps. It won’t take your time to experience{' '}
             </p>
             <div className='steps-content'>
-              <div style={{ width: '20%' }}>
+              <div className='steps-item-icon-container'>
                 <img src={UserIcon} alt='icon' />
               </div>
-              <div style={{ width: '80%' }}>
+              <div className='steps-item-content-container'>
                 <div className='steps-content-title'>
                   Step 1: Create Your Account
                 </div>
@@ -189,10 +176,10 @@ function App() {
             </div>
 
             <div className='steps-content'>
-              <div style={{ width: '20%' }}>
+              <div className='steps-item-icon-container'>
                 <img src={BankIcon} alt='icon' />
               </div>
-              <div style={{ width: '80%' }}>
+              <div className='steps-item-content-container'>
                 <div className='steps-content-title'>
                   Step 2: Link Your Cards
                 </div>
@@ -204,10 +191,10 @@ function App() {
             </div>
 
             <div className='steps-content'>
-              <div style={{ width: '20%' }}>
+              <div className='steps-item-icon-container'>
                 <img src={CardBankIcon} alt='icon' />
               </div>
-              <div style={{ width: '80%' }}>
+              <div className='steps-item-content-container'>
                 <div className='steps-content-title'>Step 3: All Done</div>
                 <p className='steps-content-description'>
                   Thats all done. Now you can explore any apps, any webs that
@@ -220,18 +207,8 @@ function App() {
       </div>
 
       <div className='container padding-top-bottom-60'>
-        <Row className='abc'>
-          <div
-            className='features-container'
-            style={{
-              width: '100%',
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-              alignItems: 'center',
-              textAlign: 'center',
-            }}
-          >
+        <Row>
+          <div className='pey-me-heading-container'>
             <div className='features-heading'>Features Just Peyme Has</div>
             <p className='features-description'>
               When the life too much things you need more than you have. Let’s
@@ -239,7 +216,7 @@ function App() {
             </p>
           </div>
 
-          <div style={{ position: 'relative', display: 'flex' }}>
+          <div className='features-background-container'>
             <img
               className='features-background'
               src={FeaturesBackground}
@@ -248,7 +225,11 @@ function App() {
             <Col xl={11}>
               <div className='features-content'>
                 <div>
-                  <img src={FeaturesContent1} alt='icon' />
+                  <img
+                    className='features-image'
+                    src={FeaturesContent1}
+                    alt='icon'
+                  />
                 </div>
                 <div className='features-card-content-container'>
                   <div className='features-content-title'>2s to Complete</div>
@@ -263,7 +244,11 @@ function App() {
             <Col xl={11} offset={2}>
               <div className='features-content'>
                 <div>
-                  <img src={FeaturesContent2} alt='icon' />
+                  <img
+                    className='features-image'
+                    src={FeaturesContent2}
+                    alt='icon'
+                  />
                 </div>
                 <div className='features-card-content-container'>
                   <div className='features-content-title'>No Hidden Fees</div>
@@ -279,7 +264,11 @@ function App() {
           <Col xl={11}>
             <div className='features-content'>
               <div>
-                <img src={FeaturesContent3} alt='icon' />
+                <img
+                  className='features-image'
+                  src={FeaturesContent3}
+                  alt='icon'
+                />
               </div>
               <div className='features-card-content-container'>
                 <div className='features-content-title'>Smart Combine</div>
@@ -294,7 +283,11 @@ function App() {
           <Col xl={11} offset={2}>
             <div className='features-content'>
               <div>
-                <img src={FeaturesContent4} alt='icon' />
+                <img
+                  className='features-image'
+                  src={FeaturesContent4}
+                  alt='icon'
+                />
               </div>
               <div className='features-card-content-container'>
                 <div className='features-content-title'>Perfect Protection</div>
@@ -309,22 +302,15 @@ function App() {
       </div>
 
       <div className='container padding-top-bottom-60'>
-        <Row>
-          <Col
-            xl={9}
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-            }}
-          >
+        <Row align='middle'>
+          <Col xl={9}>
             <div className='download-heading'>Use Peyme In Mobile</div>
             <p className='download-description'>
               We already support in multiple flatform to provide the best
               experiences, allow you to control the flow of currency with no
-              more efforts. Let’s make the world easy to life{' '}
+              more efforts. Let’s make the world easy to life
             </p>
-            <div className='flex' style={{ marginTop: '40px' }}>
+            <div className='download-applestore-googleplay-btn-container'>
               <Button className='apple-store-btn'>
                 <img src={AppleStore} alt='icon' /> Apple Store
               </Button>
@@ -345,16 +331,8 @@ function App() {
           <Col xl={12}>
             <img src={Support} alt='banner' />
           </Col>
-          <Col
-            xl={10}
-            offset={1}
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-            }}
-          >
-            <div style={{ width: '50%', position: 'relative' }}>
+          <Col xl={10} offset={1}>
+            <div className='support-content-container'>
               <div className='support-heading'>Support</div>
               <div className='support-title'>
                 Getting started for your benefits
@@ -366,13 +344,7 @@ function App() {
               </p>
               <Button className='support-btn'>Sign Up Now</Button>
               <img
-                style={{
-                  width: '228px',
-                  height: '66px',
-                  position: 'absolute',
-                  bottom: '-20%',
-                  right: '-30%',
-                }}
+                className='support-icon-background'
                 src={SupportIconBackground}
                 alt='icon'
               />
@@ -382,138 +354,143 @@ function App() {
       </div>
 
       <div className='container padding-bottom-100'>
-        <Row>
-          <Col
-            xl={24}
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              textAlign: 'center',
-            }}
-          >
+        <Row justify='center' align='middle'>
+          <Col xl={24}>
             <div className='partners-content-container'>
-              <div className='partners-heading'>Partners</div>
-              <div className='partners-title'>
-                Powering payments for partners around the world
+              <div className='partners-content-wrapper'>
+                <div className='partners-heading'>Partners</div>
+                <div className='partners-title'>
+                  Powering payments for partners around the world
+                </div>
+                <p className='partners-description'>
+                  Our partners create innovative platforms for merchants that
+                  trust Payme to process their payments.
+                </p>
               </div>
-              <p className='partners-description'>
-                Our partners create innovative platforms for merchants that
-                trust Payme to process their payments.
-              </p>
             </div>
-            <img
-              style={{ marginTop: '37px' }}
-              src={BrandPartners}
-              alt='brandLogo'
-            />
+
+            <div className='brand-partners-logo-container'>
+              <img src={ShinhanBank} alt='brandLogo' />
+              <img src={TpBank} alt='brandLogo' />
+              <img src={AcbBank} alt='brandLogo' />
+              <img src={Gucci} alt='brandLogo' />
+              <img src={Nike} alt='brandLogo' />
+              <img src={Puma} alt='brandLogo' />
+            </div>
           </Col>
         </Row>
       </div>
       <div className='footer-container'>
         <Row>
-          <Col xl={24} style={{ display: 'flex', paddingBottom: '72px' }}>
-            <Col xl={6} className='footer-category-container'>
-              <div className='footer-category-title'>Product</div>
-              <div className='footer-category-item cursor'>Desktop Wallet</div>
-              <div className='footer-category-item cursor'>Mobile Wallet</div>
-              <div className='footer-category-item cursor'>
-                Trezor Hardware Wallet
-              </div>
-              <div className='footer-category-item cursor'>
-                Exodus Crypto Apps
-              </div>
-            </Col>
-            <Col xl={6}>
-              <div className='footer-category-title'>Support</div>
-              <div className='footer-category-item cursor'>Support</div>
-              <div className='footer-category-item cursor'>Knowledge base</div>
-              <div className='footer-category-item cursor'>Legal Inquiries</div>
-              <div className='footer-category-item cursor'>Status</div>
-              <div className='footer-category-item cursor'>Videos</div>
-              <div className='footer-category-item cursor'>Blog</div>
-            </Col>
-            <Col xl={6}>
-              <div className='footer-category-title'>Company</div>
-              <div className='footer-category-item cursor'>About us</div>
-              <div className='footer-category-item cursor'>Investors</div>
-              <div className='footer-category-item cursor'>Careers</div>
-              <div className='footer-category-item cursor'>Contact Us</div>
-              <div className='footer-category-item cursor'>
-                Brand guidelines
-              </div>
-            </Col>
-            <Col xl={6}>
-              <div className='footer-category-title'>Subscribe to Peyme</div>
-              <div className='footer-category-item'>
-                Sign up to receive our newsletter with updates about your
-                wallet.
-              </div>
-              <Button className='footer-sign-up-btn'>Sign Up</Button>
-            </Col>
+          <Col xl={6}>
+            <h4 className='footer-category-title'>Product</h4>
+            <ul className='footer-ul-container'>
+              <li className='footer-category-item'>
+                <a href='/#'>Desktop Wallet</a>
+              </li>
+              <li className='footer-category-item'>
+                <a href='/#'>Mobile Wallet</a>
+              </li>
+              <li className='footer-category-item'>
+                <a href='/#'>Trezor Hardware Wallet</a>
+              </li>
+              <li className='footer-category-item'>
+                <a href='/#'>Exodus Crypto Apps</a>
+              </li>
+            </ul>
           </Col>
-          <Col xl={24} style={{ display: 'flex' }}>
-            <Col
-              xl={12}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-              }}
-            >
+          <Col xl={6}>
+            <h4 className='footer-category-title'>Support</h4>
+            <ul className='footer-ul-container'>
+              <li className='footer-category-item'>
+                <a href='/#'>Knowledge base</a>
+              </li>
+              <li className='footer-category-item'>
+                <a href='/#'>Legal Inquiries</a>
+              </li>
+              <li className='footer-category-item'>
+                <a href='/#'>Status</a>
+              </li>
+              <li className='footer-category-item'>
+                <a href='/#'>Videos</a>
+              </li>
+              <li className='footer-category-item'>
+                <a href='/#'>Blog</a>
+              </li>
+            </ul>
+          </Col>
+          <Col xl={6}>
+            <h4 className='footer-category-title'>Company</h4>
+            <ul className='footer-ul-container'>
+              <li className='footer-category-item'>
+                <a href='/#'>About us</a>
+              </li>
+              <li className='footer-category-item'>
+                <a href='/#'>Investors</a>
+              </li>
+              <li className='footer-category-item'>
+                <a href='/#'>Careers</a>
+              </li>
+              <li className='footer-category-item'>
+                <a href='/#'>Contact Us</a>
+              </li>
+              <li className='footer-category-item'>
+                <a href='/#'>Brand guidelines</a>
+              </li>
+            </ul>
+          </Col>
+          <Col xl={6}>
+            <h4 className='footer-category-title'>Subscribe to Peyme</h4>
+            <ul className='footer-ul-container'>
+              <li className='footer-category-item'>
+                <a href='/#'>
+                  Sign up to receive our newsletter with updates about your
+                  wallet.
+                </a>
+              </li>
+            </ul>
+
+            <Button className='footer-sign-up-btn'>Sign Up</Button>
+          </Col>
+
+          <Col xl={12}>
+            <div className='logo-footer-container'>
               <img src={LogoFooter} alt='icon' />
-              <img
-                style={{ marginLeft: '36px', marginRight: '36px' }}
-                src={FooterLine}
-                alt='icon'
-              />
+              <img className='footer-line-icon' src={FooterLine} alt='icon' />
               <div className='footer-company-copyright'>
                 Copyright © 2021 Peyme Movement, Inc. <br />
                 Peyme was co-founded by Thanh Thien and Thanh Long.
               </div>
-            </Col>
-            <Col
-              xl={12}
-              style={{ display: 'flex', justifyContent: 'flex-end' }}
-            >
-              <div className='footer-social-contact-container'>
-                <img
-                  className='cursor'
-                  width={20}
-                  src={LogoSocial1}
-                  alt='icon'
-                />
-                <img
-                  className='cursor'
-                  width={20}
-                  src={LogoSocial2}
-                  alt='icon'
-                />
-                <img
-                  className='cursor'
-                  width={20}
-                  src={LogoSocial3}
-                  alt='icon'
-                />
-                <img
-                  className='cursor'
-                  width={20}
-                  src={LogoSocial4}
-                  alt='icon'
-                />
-                <img
-                  className='cursor'
-                  width={20}
-                  src={LogoSocial5}
-                  alt='icon'
-                />
-                <img
-                  className='cursor'
-                  width={10}
-                  src={LogoSocial6}
-                  alt='icon'
-                />
+            </div>
+          </Col>
+          <Col xl={12}>
+            <div className='footer-social-contact-container'>
+              <div className='footer-social-contact-wrapper'>
+                <a href='/#'>
+                  <img width={20} src={LogoSocial1} alt='icon' />
+                </a>
+
+                <a href='/#'>
+                  <img width={20} src={LogoSocial2} alt='icon' />
+                </a>
+
+                <a href='/#'>
+                  <img width={20} src={LogoSocial3} alt='icon' />
+                </a>
+
+                <a href='/#'>
+                  <img width={20} src={LogoSocial4} alt='icon' />
+                </a>
+
+                <a href='/#'>
+                  <img width={20} src={LogoSocial5} alt='icon' />
+                </a>
+
+                <a href='/#'>
+                  <img width={10} src={LogoSocial6} alt='icon' />
+                </a>
               </div>
-            </Col>
+            </div>
           </Col>
         </Row>
       </div>

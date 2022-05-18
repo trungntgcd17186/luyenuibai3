@@ -8,9 +8,9 @@
   src: url(./assets/fonts/SF-Pro-Display-Bold.otf) format('opentype');
 }
 
-/* .App {
-  padding: 36px 108px 46px 108px;
-} */
+body {
+  font-family: 'SVN-Gilroy';
+}
 
 .container {
   padding: 0px 108px;
@@ -36,14 +36,34 @@
 .nav-item {
   display: flex;
   align-items: center;
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
+
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.0015em;
 
   color: #0a215f;
+}
+
+.arrow-down-icon {
+  margin-left: 9px;
+  margin-top: 3px;
+}
+
+.header-content-btn-container {
+  display: flex;
+  align-items: center;
+  margin-top: 56px;
+}
+
+.header-content-take-a-trip-btn-container {
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+
+.header-main-content-left {
+  margin-top: 100px;
 }
 
 .sign-in-sign-up-container {
@@ -54,12 +74,8 @@
 
 .sign-in-btn {
   margin-right: 24px;
-
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 20px;
 
   text-align: center;
   letter-spacing: 0.0125em;
@@ -68,15 +84,10 @@
 
 .sign-up-btn {
   background-color: #1443bd;
-
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 20px;
   text-align: center;
   letter-spacing: 0.0125em;
-
   color: #ffffff;
   border-radius: 4px;
 }
@@ -93,8 +104,6 @@
 }
 
 .sign-up-description {
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
@@ -114,6 +123,10 @@
   text-align: center;
   letter-spacing: 0.0125em;
   color: #2a84c6;
+}
+
+.line-icon {
+  margin-left: 24px;
 }
 
 .get-started-btn {
@@ -148,6 +161,10 @@
   color: #ffffff;
 }
 
+.sign-up-banner-image-container {
+  margin-top: 30px;
+}
+
 .sign-up-banner-image {
   width: 100%;
   height: 100%;
@@ -156,18 +173,19 @@
 
 .sign-up-content-container {
   display: flex;
-  align-items: center;
 }
 
 .header-container {
   position: relative;
   padding-top: 36px;
-  padding-bottom: 100px;
+  background-image: url(./assets/images/BackgroundTopHeader.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .header-background {
   position: absolute;
-  bottom: 0;
+  bottom: -2%;
   left: 0;
   right: 0;
   width: 100%;
@@ -175,6 +193,14 @@
 }
 
 .reasons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pey-me-heading-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -196,17 +222,28 @@
   text-align: center;
 }
 
+.features-background-container {
+  display: flex;
+  position: relative;
+}
+
 .reasons-description,
 .features-description {
+  width: 60%;
   margin-top: 20px;
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
+  margin-bottom: 0;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #0a215f;
   text-align: center;
   letter-spacing: 0.005em;
+}
+
+.features-image {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 16px;
 }
 
 .reasons-items-container {
@@ -247,8 +284,7 @@
 
 .reasons-item-title {
   margin-top: 30px;
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
+
   font-weight: 600;
   font-size: 26px;
   line-height: 32px;
@@ -257,8 +293,6 @@
 }
 
 .reasons-item-description {
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -295,8 +329,7 @@
 
 .steps-description {
   margin-top: 20px;
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -311,6 +344,14 @@
   align-items: center;
 }
 
+.steps-item-icon-container {
+  width: 15%;
+}
+
+.steps-item-content-container {
+  width: 83%;
+}
+
 .steps-content-title {
   font-family: 'SF Pro Display';
   font-style: normal;
@@ -323,8 +364,7 @@
 .steps-content-description {
   margin-top: 12px;
   margin-bottom: 0;
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -352,8 +392,6 @@
 }
 
 .features-content-title {
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 600;
   font-size: 26px;
   line-height: 32px;
@@ -361,8 +399,6 @@
 }
 
 .features-content-description {
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -371,6 +407,12 @@
 
   margin-top: 24px;
   width: 90%;
+}
+
+.download-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .download-heading {
@@ -386,13 +428,16 @@
   margin-top: 12px;
   margin-bottom: 0;
 
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.005em;
   color: #0a215f;
+}
+
+.download-applestore-googleplay-btn-container {
+  display: flex;
+  margin-top: 40px;
 }
 
 .apple-store-btn {
@@ -449,6 +494,23 @@
   color: #ffffff;
 }
 
+.support-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+  position: relative;
+}
+
+.support-icon-background {
+  width: 228px;
+  height: 66px;
+  position: absolute;
+  bottom: 0;
+  right: -30%;
+}
+
 .support-heading {
   font-family: 'SF Pro Display';
   font-style: normal;
@@ -461,8 +523,6 @@
 .support-title {
   margin-top: 16px;
 
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -474,8 +534,6 @@
   margin-top: 4px;
   margin-bottom: 0;
 
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -502,8 +560,6 @@
     #1443bd;
   border-radius: 4px;
 
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
@@ -513,7 +569,16 @@
 }
 
 .partners-content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-content-wrapper {
   width: 35%;
+  text-align: center;
   border-bottom: 1px solid #cccccc;
 }
 
@@ -529,8 +594,6 @@
 .partners-title {
   margin-top: 16px;
 
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
@@ -543,8 +606,6 @@
   margin-bottom: 0;
   padding-bottom: 37px;
 
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -559,8 +620,6 @@
 }
 
 .footer-category-title {
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
@@ -568,11 +627,18 @@
   color: #ffffff;
 }
 
+.footer-ul-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-ul-container > li > a {
+  color: #ffffff;
+}
+
 .footer-category-item {
   margin-top: 8px;
 
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -580,7 +646,7 @@
   color: #ffffff;
 }
 
-.footer-category-container .footer-category-item:first-child {
+.footer-category-title > li:first-child {
   margin-top: 16px;
 }
 
@@ -598,8 +664,6 @@
   background: #ffffff;
   border-radius: 4px;
 
-  font-family: 'SVN-Gilroy';
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
@@ -610,8 +674,6 @@
 
 .footer-company-copyright {
   width: 50%;
-
-  font-family: 'SVN-Gilroy';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -620,20 +682,46 @@
   color: #ffffff;
 }
 
+.logo-footer-container {
+  margin-top: 72px;
+
+  display: flex;
+  align-items: center;
+}
+
 .footer-social-contact-container {
+  margin-top: 82px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-social-contact-wrapper {
   width: 70%;
   padding-right: 20px;
   display: flex;
   justify-content: space-between;
 }
 
+.footer-line-icon {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
 .features-background {
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 12%;
 }
-@media screen and (min-width: 1600px) {
-  .sign-up-banner-image {
-    margin-top: 30px;
-  }
+
+.brand-partners-logo-container {
+  margin-top: 37px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-partners-logo-container > img {
+  object-fit: contain;
 }

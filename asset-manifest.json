@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "./static/css/main.03caf97c.css",
+    "main.js": "./static/js/main.f5aea5d5.js",
+    "static/js/787.6c06698a.chunk.js": "./static/js/787.6c06698a.chunk.js",
+    "static/media/SF-Pro-Display-Bold.otf": "./static/media/SF-Pro-Display-Bold.170e68ac3f4c79ef407d.otf",
+    "static/media/Phone.png": "./static/media/Phone.cc54d0cf609f01addeae.png",
+    "static/media/Banner.png": "./static/media/Banner.6ca1ea5fdfa4d7fd3ee7.png",
+    "static/media/SVNGilroyLight.otf": "./static/media/SVNGilroyLight.d1f6a130a45c153b5eb9.otf",
+    "static/media/Image3Steps.svg": "./static/media/Image3Steps.0c2f9bf25f2ef4c1528a827e7b142e93.svg",
+    "static/media/Support.png": "./static/media/Support.4d756f5ed24a78489e65.png",
+    "static/media/FeaturesBackground.png": "./static/media/FeaturesBackground.0169aaab0f7f60fc9c19.png",
+    "static/media/ReasonsItem3.png": "./static/media/ReasonsItem3.8405e2aeeef5bb1d19d7.png",
+    "static/media/BackgroundTopHeader.png": "./static/media/BackgroundTopHeader.852b556dae91ba7556d6.png",
+    "static/media/Logo.svg": "./static/media/Logo.3a8ffb334aaafeb5fed5207a42f4e32c.svg",
+    "static/media/LogoSocial1.svg": "./static/media/LogoSocial1.6e85d630197300f88dd7c8c1ba1f9173.svg",
+    "static/media/LogoFooter.svg": "./static/media/LogoFooter.4077460fe7dac390067b5e480dbfd847.svg",
+    "static/media/BankIcon.svg": "./static/media/BankIcon.f1e9ff27d3b9e1be0aeb495d6639d95f.svg",
+    "static/media/LogoSocial5.svg": "./static/media/LogoSocial5.ed8ec9147c766aab0b43591f37b711be.svg",
+    "static/media/LogoSocial2.svg": "./static/media/LogoSocial2.765a145742ed4f4b8d77b4b170340376.svg",
+    "static/media/LogoSocial3.svg": "./static/media/LogoSocial3.1e5eccf356b5fc60f669839082042097.svg",
+    "static/media/DownIcon.svg": "./static/media/DownIcon.86b83c87bab5c39f8bae81133ad0c211.svg",
+    "static/media/AppleStore.svg": "./static/media/AppleStore.19c6673c21935ef8dba7a70ca41b2b90.svg",
+    "static/media/CardBankIcon.svg": "./static/media/CardBankIcon.e22b9e8a6580307578159f20727b6537.svg",
+    "static/media/UserIcon.svg": "./static/media/UserIcon.13970c19410f0a19c2136238af3592e8.svg",
+    "static/media/LogoSocial4.svg": "./static/media/LogoSocial4.10f3c7b7b885a87d3a14fc536aaafdd8.svg",
+    "index.html": "./index.html",
+    "static/media/GooglePlay.svg": "./static/media/GooglePlay.5913ed1609ed02f7656c150eb9ac7975.svg",
+    "static/media/ArrowRightIcon.svg": "./static/media/ArrowRightIcon.54819a4bb29bf4c91be9ab29312f6b9c.svg",
+    "static/media/PlayIcon.svg": "./static/media/PlayIcon.2c25ca157776bce965c524eae29f4212.svg",
+    "static/media/LogoSocial6.svg": "./static/media/LogoSocial6.63ef3b234439ecbf23b1191be8301e53.svg",
+    "static/media/Line.svg": "./static/media/Line.749f917e918d2a59e32907d4cd5557f8.svg",
+    "static/media/FooterLine.svg": "./static/media/FooterLine.c4d1b986842943a80455b777cbf1d172.svg",
+    "main.03caf97c.css.map": "./static/css/main.03caf97c.css.map",
+    "main.f5aea5d5.js.map": "./static/js/main.f5aea5d5.js.map",
+    "787.6c06698a.chunk.js.map": "./static/js/787.6c06698a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03caf97c.css",
+    "static/js/main.f5aea5d5.js"
+  ]
+}

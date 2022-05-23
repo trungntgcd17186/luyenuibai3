@@ -121,7 +121,11 @@ function App() {
           <div className='reasons-items-container'>
             <div className='background-container'></div>
             <div className='reasons-item'>
-              <img src={ReasonsItem1} alt='icon' />
+              <img
+                className='reasons-item-image'
+                src={ReasonsItem1}
+                alt='icon'
+              />
               <div className='reasons-item-title'>Purchase One Touch</div>
               <p className='reasons-item-description'>
                 Get a quick overview of all your transactions in our easy-to-use
@@ -130,7 +134,11 @@ function App() {
               </p>
             </div>
             <div className='reasons-item'>
-              <img src={ReasonsItem2} alt='icon' />
+              <img
+                className='reasons-item-image'
+                src={ReasonsItem2}
+                alt='icon'
+              />
               <div className='reasons-item-title'>Free Transactions</div>
               <p className='reasons-item-description'>
                 Every transactions in Peyme is free. <br /> You don’t worry
@@ -138,7 +146,11 @@ function App() {
               </p>
             </div>
             <div className='reasons-item'>
-              <img src={ReasonsItem3} alt='icon' />
+              <img
+                className='reasons-item-image'
+                src={ReasonsItem3}
+                alt='icon'
+              />
               <div className='reasons-item-title'>Private and secure </div>
               <p className='reasons-item-description'>
                 None of your personcal data is ever collected or stored in our
